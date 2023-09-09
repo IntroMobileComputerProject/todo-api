@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/to-do-api/to-do-api.csproj": {}
+    "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/todo-api-ak/to-do-api.csproj": {}
   },
   "projects": {
-    "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/to-do-api/to-do-api.csproj": {
+    "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/todo-api-ak/to-do-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/to-do-api/to-do-api.csproj",
+        "projectUniqueName": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/todo-api-ak/to-do-api.csproj",
         "projectName": "to-do-api",
-        "projectPath": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/to-do-api/to-do-api.csproj",
+        "projectPath": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/todo-api-ak/to-do-api.csproj",
         "packagesPath": "/Users/akkatung/.nuget/packages/",
-        "outputPath": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/to-do-api/obj/",
+        "outputPath": "/Users/akkatung/Library/CloudStorage/OneDrive-ChulalongkornUniversity/work/Y2/Year 3 semester 1/Study/Intro mobile compuer/Project/todo-api-ak/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akkatung/.nuget/NuGet/NuGet.Config"
