@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  webapp:
+    image: to-do-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+    environment:
+      - ConnectionString=Server=db;Port=3306;Database=todo-db;User=root;Password=password;
+
+  db:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: todo-db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+volumes:
+  mariadb_data:
