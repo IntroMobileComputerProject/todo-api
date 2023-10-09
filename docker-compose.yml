@@ -8,18 +8,21 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:80"
-    environment:
-      - ConnectionString=Server=db;Port=3306;Database=todo-db;User=root;Password=password;
+    depends_on:
+      - mariadb
 
-  db:
+  mariadb:
     image: mariadb:latest
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: todo-db
+      MYSQL_DATABASE: MyDatabase
     ports:
       - "3306:3306"
+    expose:
+      - "3306"
     volumes:
       - mariadb_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
 volumes:
   mariadb_data:
